@@ -79,7 +79,7 @@ sudo pkg install libpcap
 1. `sudo ./xsec_webspy start -m local -i en0`
 1. `sudo ./xsec_webspy start -m arp -i en0 -t 192.168.100.100 -g 192.168.100.1`
 
-[relases](https://github.com/netxfly/xsec-webspy/releases)
+[relases](https://github.com/netxfly/xsec-webspy/releases)页面有编译好的二进制版本。
 
 ## 截图
 1. 以监听本地模式运行
