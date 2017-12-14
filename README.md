@@ -41,6 +41,7 @@ GLOBAL OPTIONS:
 
 在启动前需要安装libpcap库并将内核参数设为允许转发，以下为3种OS的安装、设置方法：
 
+```bash
 # OSX
 sudo sysctl net.inet.ip.forwarding=1
 
@@ -61,13 +62,17 @@ brew install libpcap
 
 # FreeBSD
 sudo pkg install libpcap
+```
+
 需要指定采集的目标与网关，其中采集的目标的语法与nmap的一致，支持以下几种写法：
 
+```shell
 10.0.0.1
 10.0.0.0/24
 10.0.0.*
 10.0.0.1-10
 10.0.0.1, 10.0.0.5-10, 192.168.1.*, 192.168.10.0/24
+```
 
 命令语法分别如下：
 
