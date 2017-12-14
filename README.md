@@ -84,6 +84,6 @@ sudo pkg install libpcap
 ## 截图
 1. 以监听本地模式运行
 ![](http://x.xsec.io/static/upload/201712140608467.png)
-![](http://x.xsec.io/static/upload/201712140608523.png)
+![](http://x.xsec.io/static/upload/201712141014256.png)
 
 1. 以arp spoof模式运行，由于在公司，不方便测试，等下班回家补上。
